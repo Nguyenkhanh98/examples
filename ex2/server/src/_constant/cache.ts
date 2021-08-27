@@ -1,0 +1,1 @@
+export const TRANSIION_CACHE_KEY = 'TRANSITION_CACHE';

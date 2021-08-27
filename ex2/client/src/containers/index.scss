@@ -1,0 +1,29 @@
+.map {
+
+    display: flex;
+    width: 40vw;
+    height: auto;
+    flex-wrap: wrap;
+    transform: rotate(-45deg);
+    padding-top: 10vh;
+    height: 40vw;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.map li {
+    list-style-type: none;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    cursor: pointer;
+}
+
+.button--rotate {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    transform-origin: right;
+}
