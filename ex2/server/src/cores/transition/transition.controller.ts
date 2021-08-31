@@ -72,20 +72,5 @@ export class TransitionController {
     };
   }
 
-  // async createDevice(
-  //   @Body() createDeviceDTO: any,
-  // ): Promise<Partial<Response<any>>> {
-  //   if (true) {
-  //     throw new ConflictException(
-  //       `'${createDeviceDTO.deviceId}' ${RESPONSE_MESSAGE.DUPPLICATE}`,
-  //     );
-  //   }
-
-  //   return {
-  //     message: RESPONSE_MESSAGE.CREATE_SUCCESSFULLY,
-  //     data: {
-  //       state: null,
-  //     },
-  //   };
   // }
 }
